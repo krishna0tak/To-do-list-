@@ -7,23 +7,23 @@
     <title>To do List</title>
     <link rel="stylesheet" href="/style.css">
 </head>
-<body><nav> <h1 style=" text-align: center; font-size: 25px; font-weight: bold;">To do List</h1></nav>
+<body><nav> <h1>To do List</h1></nav>
   <div style="
    width: 60vw; height: 25vw; margin: auto;">
 
-    <label  style="font-size: large;font: 1em sans-serif;" for="title">Title</label>
-    <input style=" margin-bottom: 0.5rem; border: 1px solid; width: 60vw; height: 1.3rem; " type="text" id="title">
-    <label style="font-size: large;font: 1em sans-serif;" for="txtar">Description</label>
+    <label   for="title">Title</label>
+    <input  type="text" id="title">
+    <label for="txtar">Description</label>
     <textarea  id="txtar"></textarea>
-    <button  id="addto">Add to list</button>
-    <button  id="clear" onclick="clearStorage()">Clear list</button>
+    <button  id="addto"> Add to list </button>
+    <button  id="clear" onclick="clearStorage()"> Clear list </button>
       <div style="margin-top: 1rem;" id="items"><h2 style=" font-size: 20px; font-weight: bold;">YOUR ITEMS</h2>
         <hr>
     <table style="margin: auto;" class="table">
        
             <thead>
                 <tr style="font-size: large;font: 1em sans-serif; ">
-                    <th style="padding-right: 1rem;" scope="col">Sno</th>
+                    <th style="padding-right: 1rem;" scope="col">S.no</th>
                     <th style="padding-right: 1rem;"scope="col"> Item title</th>
                     <th style="padding-right: 1rem;" scope="col">Item Description</th>
                     <th style="padding-right: 1rem;" scope="col">Actions</th>

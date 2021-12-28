@@ -7,10 +7,26 @@
         font-family: 'Oswald', sans-serif;
     }
 #txtar{
-    border-radius: 5px;
-    margin: 0px ; width: 822px; ; height: 122px; border: 2px solid;
+    border-radius: 10px;
+    background-color: #ecfccb
+    ;
+    margin: 0px ; width: 822px; ; height: 122px; border: 2px solid #525252;
 }
 button{
-    cursor: pointer; font-size: medium; border-radius: 3px; border: none;
+    cursor: pointer; font-size: large; border-radius: 6px; border: none;
      background-color:#525252;color: aliceblue; margin-top: 0.5rem;
+}
+label{
+    font: 1.5em sans-serif;
+}
+#title{background-color: #ecfccb
+    ;
+    border-radius: 8px; margin-bottom: 0.5rem; border: 2px solid #525252; width: 60vw; height: 1.3rem; 
+}
+#delete{
+    cursor: pointer; font-size: small; border-radius: 6px; border: none;
+     background-color:#525252;color: aliceblue; margin-top: 0.5rem;
+}
+h1{
+     text-align: center; font-size: 30px; font-weight: bold;
 }
