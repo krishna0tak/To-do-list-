@@ -30,7 +30,7 @@ function update(){
             <th  scope="row">${index + 1 }</th>
             <td >${element[0]}</td>
             <td >${element[1]} </td>
-            <td ><button style=" cursor: pointer; font-size: small; border-radius: 3px; border: none; background-color:rgb(36, 140, 236);color: aliceblue; margin-top: 0.5rem;" id="Delete" onclick="deleted(${index})">Delete</button></td>
+            <td ><button  id="Delete" onclick="deleted(${index})">Delete</button></td>
             </tr>  <hr> `
         });
         tablebody.innerHTML = str;

@@ -1,2 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 #tablebody{
     padding-right: 0.5rem; text-align: center;}
+    body{
+        background-color: #a5b4fc;
+        color:#525252;
+        font-family: 'Oswald', sans-serif;
+    }
+#txtar{
+    border-radius: 5px;
+    margin: 0px ; width: 822px; ; height: 122px; border: 2px solid;
+}
+button{
+    cursor: pointer; font-size: medium; border-radius: 3px; border: none;
+     background-color:#525252;color: aliceblue; margin-top: 0.5rem;
+}
